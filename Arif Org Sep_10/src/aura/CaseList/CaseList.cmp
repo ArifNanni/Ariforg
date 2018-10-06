@@ -5,7 +5,7 @@
 <ul>
         <aura:iteration items="{!v.cases}" var="case">
             <li>
-                
+                Hi
                     <p>{!case.CaseNumber}</p>
                     <p>{!case.Owner.Name}</p>
                 <div class="{!case.ID + A}" onclick="{!c.tester}" Id="{!case.Id}" name="Arif">
